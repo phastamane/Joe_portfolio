@@ -22,7 +22,7 @@
     list-style: none;
     list-style-position: inside;
 
-    background: url('./images/benefits/Rectangle.png') no-repeat left center;
+    background: url('../images/benefits/Rectangle.png') no-repeat left center;
     background-size: 5px 5px;
     padding-left: 15px;
     padding-bottom: 7px;
