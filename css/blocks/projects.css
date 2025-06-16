@@ -90,6 +90,7 @@
     .project-cards {
         display: flex;
         flex-direction: column;
+        align-items: center;
         gap: 30px;
         padding-top: 30px;
         padding-bottom: 45px;
@@ -101,5 +102,9 @@
 
     .card{
         font-size: 20px;
+    }
+
+    .project-text{
+        flex-direction: column;
     }
 }
