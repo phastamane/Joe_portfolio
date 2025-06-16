@@ -1,6 +1,7 @@
 html {
     box-sizing: border-box;
     overflow-x: hidden;
+    overflow-y: auto;
     scroll-behavior: smooth;
 }
 *, *:before, *::after {
@@ -17,6 +18,7 @@ html {
 
 body {
     margin: 0;
+    
 }
 
 .container {

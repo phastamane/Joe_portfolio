@@ -4,6 +4,13 @@ const about = document.getElementById('aboutButton');
 const contact = document.getElementById('contactButton');
 const scrollDownBut = document.getElementById('scroll-down')
 
+const mobileHome = document.getElementById('mobile-homeButton');
+const mobileProject = document.getElementById('mobile-projectButton');
+const mobileAbout = document.getElementById('mobile-aboutButton');
+const mobileContact = document.getElementById('mobile-contactButton');
+const mobileMenu = document.getElementById("mobileMenu"); 
+
+
 const homeDiv = document.getElementById('home-div');
 const projectDiv = document.getElementById('project-div');
 const aboutDiv = document.getElementById('about-div');
@@ -13,11 +20,6 @@ const buttonsDiv = [homeDiv, projectDiv, aboutDiv, contactDiv];
 const buttons = [home, project, about, contact]
 
 export function navButtons() {
-
-
-
-
-  
 
   home.addEventListener('click', (e) => {
     e.preventDefault();
@@ -62,6 +64,35 @@ export function navButtons() {
    
   })
 
+  mobileHome.addEventListener('click', (e) => {
+    e.preventDefault();
+    window.scrollTo({ top: 0, behavior: 'smooth' });
+
+    mobileMenu.classList.add("hidden");
+  });
+
+  mobileProject.addEventListener('click', (e) => {
+    e.preventDefault();
+    document.getElementById('project-section').scrollIntoView({ behavior: 'smooth'})
+
+    mobileMenu.classList.add("hidden");
+  });
+
+  mobileAbout.addEventListener('click', (e) => {
+    e.preventDefault();
+    document.getElementById('benefit-section').scrollIntoView({ behavior: 'smooth'})
+
+    mobileMenu.classList.add("hidden");
+  });
+
+  mobileContact.addEventListener('click', (e) => {
+    e.preventDefault();
+    document.getElementById('contact-section').scrollIntoView({ behavior: 'smooth'})
+
+    mobileMenu.classList.add("hidden");
+  });
+
+
 }
 export function scrollButton(){      
     
@@ -97,8 +128,6 @@ export function scrollButton(){
         contactDiv.style.backgroundColor = '#fff';
         contact.style.color = '#000';
     }
-
-console.log(scroll)
 }
 
 function resetButtonStyles() {
