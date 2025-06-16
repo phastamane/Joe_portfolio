@@ -1,0 +1,100 @@
+
+.scroll-text{
+    max-height: 270px;
+    background-color: #141414;
+
+    
+}
+#scroll-div {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    width: 100%;
+    min-height: 250px;
+
+
+    overflow-x: auto;
+    overflow-y: hidden;
+
+
+}
+
+#scroll-div::-webkit-scrollbar{
+    display: none;
+
+}
+
+.scroll-cont {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+
+    min-width: 2400px;
+    align-items: flex-start;
+    padding: 0%;
+    margin: 0%;
+
+}
+
+@media (max-width: 1240px){
+    #scroll-div {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        width: 100%;
+        min-height: 100px;
+
+
+        overflow-x: auto;
+        overflow-y: hidden;
+
+
+}
+
+
+    .scroll-cont {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: center;
+
+        min-width: 1000px;
+        align-items: flex-start;
+        padding: 0%;
+        margin: 0%;
+
+    }
+
+}
+
+@media (max-width: 705px){
+
+    #scroll-div {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    width: 100%;
+    min-height: 100px;
+
+
+    overflow-x: auto;
+    overflow-y: hidden;
+
+
+}
+
+    .scroll-cont {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+
+    min-width: 900px;
+    align-items: flex-start;
+    padding: 0%;
+    margin: 0%;
+
+}
+}
+

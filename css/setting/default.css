@@ -1,0 +1,278 @@
+html {
+    box-sizing: border-box;
+    overflow-x: hidden;
+    scroll-behavior: smooth;
+}
+*, *:before, *::after {
+    box-sizing: inherit;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+:root {
+    --accent-color: rgb(252, 67, 8);
+    --text-color: #fff;
+    --bg-color: #000;
+}
+
+body {
+    margin: 0;
+}
+
+.container {
+    max-width: 1220px;
+    margin: 0 auto;
+}
+
+.display2xl {
+    font-family: "Labil Grotesk-500", sans-serif;
+    font-size: 227px;
+    color: var(--text-color);
+    padding: 0%;
+    margin: 0%;
+    text-decoration: none;
+    letter-spacing: -6.5px;
+    line-height: 88%;
+    list-style: none;
+}
+
+.displayxl {
+    font-family: "Labil Grotesk-500", sans-serif;
+    font-size: 140px;
+    color: var(--text-color);
+    padding: 0%;
+    margin: 0%;
+    text-decoration: none;
+}
+
+.displaym {
+    font-family: "Labil Grotesk-500", sans-serif;
+    font-size: 84px;
+    color: var(--text-color);
+    padding: 0%;
+    margin: 0%;
+    text-decoration: none;
+}
+
+.heading1 {
+    font-family: "Labil Grotesk-500", sans-serif;
+    font-size: 64px;
+    color: var(--text-color);
+    padding: 0%;
+    margin: 0%;
+    text-decoration: none;
+}
+
+.heading2 {
+    font-family: "Labil Grotesk-500", sans-serif;
+    font-size: 48px;
+    color: var(--text-color);
+    padding: 0%;
+    margin: 0%;
+    text-decoration: none;
+}
+
+.heading3 {
+    font-family: "Labil Grotesk-500", sans-serif;
+    font-size: 32px;
+    color: var(--text-color);
+    padding: 0%;
+    margin: 0%;
+    text-decoration: none;
+}
+
+.heading4 {
+    font-family: "Labil Grotesk-500", sans-serif;
+    font-size: 24px;
+    color: var(--text-color);
+    padding: 0%;
+    margin: 0%;
+    text-decoration: none;
+}
+
+.heading5 {
+    font-family: "Labil Grotesk-500", sans-serif;
+    font-size: 20px;
+    color: var(--text-color);
+    padding: 0%;
+    margin: 0%;
+    text-decoration: none;
+}
+
+.heading6 {
+    font-family: "Labil Grotesk", sans-serif;
+    font-size: 48px;
+    color: var(--text-color);
+    padding: 0%;
+    margin: 0%;
+    text-decoration: none;
+}
+
+.bodyxlarge {
+    font-family: "Labil Grotesk", sans-serif;
+    font-size: 20px;
+    color: var(--text-color);
+    padding: 0%;
+    margin: 0%;
+    text-decoration: none;
+    line-height: 1.5;
+}
+
+.bodyxlargebold {
+    font-family: "Labil Grotesk-500", sans-serif;
+    font-size: 20px;
+    color: var(--text-color);
+    padding: 0%;
+    margin: 0%;
+    text-decoration: none;
+}
+
+.bodylarge {
+    font-family: "Labil Grotesk", sans-serif;
+    font-size: 18px;
+    color: var(--text-color);
+    padding: 0%;
+    margin: 0%;
+    text-decoration: none;
+}
+
+.bodysmall {
+    font-family: "Labil Grotesk", sans-serif;
+    font-size: 14px;
+    color: var(--text-color);
+    padding: 0%;
+    margin: 0%;
+    text-decoration: none;
+}
+
+li {
+    list-style-type: none;
+}
+
+.footer {
+    font-family: "Labil Grotesk-500", sans-serif;
+    font-size: 140px;
+    color: var(--text-color);
+    padding: 0%;
+    margin: 0%;
+    text-decoration: none;
+}
+
+.footer-mail {
+    font-family: "Labil Grotesk-500", sans-serif;
+    font-size: 20px;
+    color: var(--text-color);
+    padding: 0%;
+    margin: 0%;
+    text-decoration: none;
+}
+    .bodyxlargebold-project{
+
+        font-family: "Labil Grotesk-500", sans-serif;
+        font-size: 20px;
+        color: var(--text-color);
+        padding: 0%;
+        margin: 0%;
+        text-decoration: none;
+
+    }
+
+/* ========== MEDIA 1240px ========== */
+
+@media (max-width: 1240px) {
+    .container {
+        max-width: 690px;
+        margin: 0 auto;
+    }
+
+    .display2xl {
+        font-size: 84px;
+        list-style: none;
+    }
+
+    .displayxl {
+        font-size: 48px;
+    }
+
+    .heading1 {
+        font-size: 48px;
+    }
+
+    .heading2 {
+        font-size: 32px;
+    }
+
+    .heading3 {
+        font-size: 24px;
+    }
+
+    .heading5 {
+        font-size: 16px;
+    }
+
+    .heading6 {
+        font-size: 16px;
+    }
+
+    .bodyxlarge {
+        font-size: 18px;
+    }
+
+    .footer {
+        font-size: 80px;
+    }
+
+    .footer-mail {
+        font-size: 14px;
+    }
+    .bodyxlargebold-project{
+
+        font-family: "Labil Grotesk-500", sans-serif;
+        font-size: 20px;
+        color: var(--text-color);
+        padding: 0%;
+        margin: 0%;
+        text-decoration: none;
+
+    }
+}
+
+/* ========== MEDIA 705px ========== */
+
+@media (max-width: 705px) {
+    .container {
+        max-width: 375px;
+        margin: 0 auto;
+    }
+
+    .display2xl {
+        font-size: 48px;
+        letter-spacing: -1px;
+        line-height: 60%;
+        list-style: none;
+    }
+
+    .bodyxlargebold-project{
+
+        font-family: "Labil Grotesk-500", sans-serif;
+        font-size: 20px;
+        color: var(--text-color);
+        padding: 0%;
+        margin: 0%;
+        text-decoration: none;
+
+    }
+
+    .bodyxlargebold{
+        font-size: 14px;
+    }
+
+    .heading1{
+        font-size: 24px;
+    }
+
+    .footer{
+
+        font-size: 48px;
+    }
+}

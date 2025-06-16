@@ -1,0 +1,23 @@
+@font-face {
+    font-family: "Labil Grotesk";
+    font-display: swap;
+    font-weight: 100;
+    src: url("https://db.onlinewebfonts.com/t/5ea1539bc090ff6cdcdc87fe9c074cd2.eot");
+    src: url("https://db.onlinewebfonts.com/t/5ea1539bc090ff6cdcdc87fe9c074cd2.eot?#iefix")format("embedded-opentype"),
+    url("https://db.onlinewebfonts.com/t/5ea1539bc090ff6cdcdc87fe9c074cd2.woff2")format("woff2"),
+    url("https://db.onlinewebfonts.com/t/5ea1539bc090ff6cdcdc87fe9c074cd2.woff")format("woff"),
+    url("https://db.onlinewebfonts.com/t/5ea1539bc090ff6cdcdc87fe9c074cd2.ttf")format("truetype"),
+    url("https://db.onlinewebfonts.com/t/5ea1539bc090ff6cdcdc87fe9c074cd2.svg#Inter")format("svg");
+}
+
+@font-face {
+    font-family: "Labil Grotesk-500";
+    font-display: swap;
+    font-weight: 500;
+    src: url("https://db.onlinewebfonts.com/t/3624085123711a73a22276b47ea3e323.eot");
+    src: url("https://db.onlinewebfonts.com/t/3624085123711a73a22276b47ea3e323.eot?#iefix")format("embedded-opentype"),
+    url("https://db.onlinewebfonts.com/t/3624085123711a73a22276b47ea3e323.woff2")format("woff2"),
+    url("https://db.onlinewebfonts.com/t/3624085123711a73a22276b47ea3e323.woff")format("woff"),
+    url("https://db.onlinewebfonts.com/t/3624085123711a73a22276b47ea3e323.ttf")format("truetype"),
+    url("https://db.onlinewebfonts.com/t/3624085123711a73a22276b47ea3e323.svg#Labil Grotesk")format("svg");
+}

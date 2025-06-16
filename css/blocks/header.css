@@ -1,0 +1,294 @@
+header {
+  background-color: var(--bg-color);
+}
+
+.header-header-div {
+  align-self: center;
+}
+li:focus{
+  color: rgb(165, 39, 138);
+}
+
+.logo {
+  display: flex;
+  width: 100px;
+  height: 100px;
+  align-items: center;
+  padding-bottom: 5px;
+  align-self: center;
+  justify-content: center;
+}
+
+.nav-menu-button {
+  display: none;
+}
+
+.header-div {
+  display: flex;
+  flex-direction: column;
+}
+
+.nav-bar {
+  background-color: #1e1e1e;
+  border-radius: 80px;
+  position: fixed;
+  top: 0;
+  left: 50%;
+  transform: translateX(-50%);
+  max-width: 470px;
+  width: 100%;
+  z-index: 999;
+
+  margin-top: 85px;
+}
+
+.nav-but {
+  display: flex;
+  list-style: none;
+  flex-wrap: wrap;
+  padding: 16px 5px;
+  margin: 0;
+  align-items: center;
+  justify-content: space-around;
+  
+}
+
+#home-div{
+
+  display: flex;
+  flex-wrap: nowrap;
+  
+  height: 40px;
+  align-content: center;
+  justify-content: center;
+  align-items: center;
+
+  padding: 10px 16px;
+  border-radius: 40px;
+
+}
+
+#project-div{
+
+  display: flex;
+  flex-wrap: nowrap;
+  
+  height: 40px;
+  align-content: center;
+  justify-content: center;
+  align-items: center;
+
+  padding: 10px 16px;
+  border-radius: 40px;
+
+}
+
+#about-div{
+
+  display: flex;
+  flex-wrap: nowrap;
+  
+  height: 40px;
+  align-content: center;
+  justify-content: center;
+  align-items: center;
+
+  padding: 10px 16px;
+  border-radius: 40px;
+
+}
+
+#contact-div{
+
+  display: flex;
+  flex-wrap: nowrap;
+  
+  height: 40px;
+  align-content: center;
+  justify-content: center;
+  align-items: center;
+
+  padding: 10px 16px;
+  border-radius: 40px;
+
+}
+
+.button {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  height: 100%;
+  padding: 0;
+
+}
+
+.buttons :active{
+  background-color: rgb(199, 67, 23);
+}
+
+.button-right {
+  padding-left: 24px;
+}
+
+.button-left {
+  padding-right: 24px;
+}
+
+.slogan {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: stretch;
+}
+
+.scroll {
+  display: flex;
+  max-width: 231px;
+  max-height: 91px;
+  height: 100%;
+  width: 100%;
+  align-self: flex-end;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 30px;
+  margin-left: 40px;
+  border-radius: 80px;
+  background-color: #1e1e1e;
+}
+
+.branding-div {
+  max-width: 950px;
+  width: 100%;
+  text-align: center;
+  padding-top: 66px;
+}
+
+.text-box {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+}
+
+.about-me {
+  display: flex;
+  justify-content: space-between;
+  position: relative;
+  margin-top: 90px;
+  bottom: 15px;
+}
+
+.left {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+.right {
+  max-width: 471px;
+}
+
+/* ---------- MEDIA QUERIES ----------- */
+
+@media (max-width: 1240px) {
+  .logo {
+    padding-top: 22px;
+    margin-bottom: 10px;
+  }
+
+  .scroll {
+    min-width: 231px;
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    position: relative;
+    top: 5px;
+  }
+
+  .branding-div {
+    display: flex;
+    flex-direction: column;
+    gap: 35px;
+    margin-bottom: 15px;
+  }
+
+  .text-box {
+    max-width: 100%;
+    padding-top: 20px;
+  }
+
+  .about-me {
+    margin-top: 50px;
+  }
+
+  .right {
+    max-width: 406px;
+    margin-top: 5px;
+    margin-left: 70px;
+  }
+}
+
+@media (max-width: 705px) {
+  .header-header-div {
+    display: flex;
+    justify-content: space-between;
+    min-width: 100%;
+  }
+
+  .logo {
+    display: flex;
+    width: 60px;
+    height: 21px;
+    align-items: center;
+    padding-left: 30px;
+    padding-bottom: 5px;
+    align-self: center;
+    justify-content: center;
+  }
+
+  .logo img {
+    width: 60px;
+    height: 21px;
+  }
+
+  .nav-menu-button {
+    display: flex;
+    padding: 16px 0;
+  }
+
+  .nav-bar {
+    display: none;
+  }
+
+  .scroll {
+    min-width: 140px;
+    min-height: 40px;
+    margin: 0;
+    padding: 0;
+    position: static;
+    align-self: flex-end;
+  }
+
+  .text-box {
+    display: flex;
+    flex-direction: column;
+    padding-top: 40px;
+  }
+
+  .branding-div {
+    width: 100%;
+    font-size: 48px;
+    box-sizing: border-box;
+    padding: 0 16px;
+    align-items: center;
+    margin-bottom: 32px;
+  }
+
+  .slogan {
+    display: flex;
+    width: 100%;
+    flex-wrap: nowrap;
+    align-items: center;
+    padding: 0%;
+    margin: 0;
+  }
+}
